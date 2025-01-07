@@ -1,0 +1,209 @@
+GITHUB
+______
+
+->store data permanently
+->gives visual experience
+->gives us collaboration
+
+GIT
+___
+
+->it is a version control system used to track the changes in the files/folders
+-> untracked->tracked->store in staging area(shows the tracked files)->local repo->main repo
+->commends
+1.git init(initialize the empty repository)
+2.git add filename(working copy[local machine] to staging area,untracked file to tracked file)
+3.git commit -m "msg"(staging area to local repo , used to  write commit msg i.e., can have changes made to a particular file)
+4.git push url(push code from local repo to main repo)
+5.git clone url(copy of remote repo[ github ] to local machine)
+
+
+Day2
+____
+
+-git  add .
+-git path -u origin master
+-
+EA1E-F1E2
+
+Day3
+____
+
+Hypertext-:Hyperlinks anchor tag
+-used to create structure content
+
+CSS-:add Styles to the website
+
+JavaScript-:used to design websites
+
+-Static: remains constant to everyone
+--eg:FB login
+-Dynamic:changes to everyone
+--ex: FB interface,
+--Youtube recommendations,
+--google maps # time to time data is updated,
+
+JavaScript
+__________
+
+-it helps to make websites dynamically and interactive.
+-used both on client side(in the browser) and serverside(node js).
+-it allows the webpages to change it with out reloading the entire page
+-it is a scripting languages used to write scripts to develop webpages.
+-it is often used for form validations.
+-it was first released by "NetScape"
+-it can be implemented in the html using <script> tag.
+-open any browser right click>inspect>inside script tag can write javascript code
+1)Variables:
+____________
+
+-python,java
+-variables are used to store data(any kind of data)
+-when we use same variable name the second value of the variable will rewrite old one(second value is considered ).
+-variables always starts with letters,_,$ but not numbers.
+-variables can include letters,numbers,_,$.
+-for all the programming languages except sql variable are case-Sensitive
+-space between two variable names are not allowed
+
+Types of variables
+1)var
+-re-initialization
+-re-declaration
+2)let
+-re-initialization
+-re-declaration(not possible)
+3)const
+-re-initialization(not possible)
+-re-declaration(not possible)
+
+var(variable) u(identifier)="usha"(value/data);
+console.log(u);=>it is a method to print the o/p in the developer console.
+document.writeLn();=>it is the method to print the o/p on the UI
+
+Coments are the ignored lined by the browser
+1)html:-<!--comment to be done -->
+css:-/*comment/*
+2)
+
+dataTypes
+_________
+
+1)primitive
+ -immutable
+ -can store only single values
+	-String
+	-number
+ 	-Boolean
+ 	-undefined
+	-null
+	-symbol
+	-bigint
+2)non-primitive
+ -they are user defined
+ -mutable
+ -can store only multiple values
+ 	-array
+	-functions
+	-objects
+	-math,date,json
+
+3)String
+________
+
+-sequence of characters enclosed within "", '',(``)template literals/backtiks
+
+number:-
+- -2^53-1 to +2^53-1 upto this range we consider as number data type;
+- beyond this range is bigint
+-any value sufix with "n" will be bigint.
+
+Boolean:-true/false
+
+undefined:-variable is declared but not initialized with the value
+
+null:-it is an empty value
+
+Day4
+____
+
+1)Operators:
+
+-They are special Type of Sysmbols used to perform some operations on operands.
+ex:-a+b(a,b are operands ,+ is an operator)
+
+Types of Operators:
+
+-unary
+-binary
+-ternary(op1 ? op2 :op3)
+
+1.Arithmatic Operators
+2.Assignment Operators
+3.relational Operators
+4.logical Operators
+
+1)Arithmatic Operators:
+-addition
+-substaction
+-multiplication
+-division
+-modulus
+-exponential
+-increment(++)--increment will happen with on evalue
+ -per-increment--increment before execution
+ -post-increment--increment after execution
+-decrement(--)
+ -per-decrement
+ -post-decrement
+
+ -Concatinating:-adding 2 or more strings
+ -typescasting:-converting one datatype to another
+ -NaN:-not a number
+
+ 2)Assignment Operators
+   - =,+=,*=,/=
+
+3)Relational Operators
+-which are used to compare two values 
+-always retuens boolean
+- ==,===,!=,!==,>,>=,<,<=
+
+differences between "==" and "==="
+"==" it will check value but not data Type.
+"===" it will check both values and data type
+ "!=" it will check value but not data Type.
+"!==" it will check both values and data type
+	
+4)Logical Operators
+-AND(&&):when both conditions are true return true else false
+-OR(&&):when any one consition is true return true else false
+-NOT(!):if true returns false and viseversa
+
+5)Decision making statements:-
+-if:only if condition is true then executes
+-if else:
+-else if ladder
+-switch
+-ternary
+
+prompt():- takes values manually 
+
+take 3 values and print which value is grater among th e three values:
+-let a=10;
+-let b=20;
+-let c=30;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
