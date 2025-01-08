@@ -188,11 +188,48 @@ differences between "==" and "==="
 
 prompt():- takes values manually 
 
-take 3 values and print which value is grater among th e three values:
--let a=10;
--let b=20;
--let c=30;
+Day 5
+_____
 
+Looping statements
+__________________
+
+ -to execute a  block of code repeatedly
+)))for Looping:
+for(Initialization,condition,updation){
+	statements
+}
+-when the no of iterations are known
+)))while
+while(condition){
+	statements
+}
+-when the no of iterations are not known
+)))do while
+do(){
+}
+while(conditions){//entry control
+	statements
+}
+-when the no of iterations are not known
+
+What is entry control and exit control loop:
+--entry control loops are for,while.
+--exit control loops are do-while.
+
+-)minimum iteration count of for and while is "0"
+-)minimum iteration count of do-while is "1"
+
+What is the difference between breah and continue?
+break:-when condition satisfy it will terminate the loop permanently
+continue:-when condition satisfy it wil skip the condition
+
+=]Function:
+___________
+
+-it is a block of code used to perform specific task
+-reusability
+-javaScript also code as functionalized 
 
 
 

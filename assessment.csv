@@ -72,6 +72,7 @@ if (a > b && a > c) {
 } else {
     console.log("Some numbers are equal.");
 } 
+//swicth case
     let a = Number(prompt("Enter the 1st number"));
     let b = Number(prompt("Enter the 2nd number"));
     let c = Number(prompt("Enter the 3rd number"));
