@@ -230,8 +230,73 @@ ___________
 -it is a block of code used to perform specific task
 -reusability
 -javaScript also code as functionalized 
+-it is a non primitive data type
+syntax:- function function_name(optional oparameters){//function declaration
+			//statements
+		}
+		function_name(arguments);
+		let a=10;
 
+Types of functions:-
+____________________
 
+1,named functions(fun which is invoked using same nMAE)
+2.anonymus function(FUNCTION WHICH DOES NOT HAVE NAME TO DECLARE NAME AND INVOKING THE NAME)
+-without decalring the function name body it cant be execute
+3.function expression //csn be called multiple times
+ananymus function declaration is assigned to variable and invoked withe same variable
+let x=function(){
+    console.log("function expression");
+};
+x();
+4.Immediate invoke function expression //it can call only once
+once function is created it should be invoked immediately
+(function(){
+    console.log("IIFE");
+})
+();
+5.Arrow function --it is used to concise the normal function syntax
+syntax:-()=>{}
+-it is similar to anonymus function
+let x=()=>{
+    console.log("Arrow function");
+};
+x();
+let x=_=>
+    console.log("Arrow function");
+
+x();
+6.Higher order function
+7.Callback function
+-closure
+
+NOTE:-
+-current version of javascript is es14.
+-es6-
+-es-ECMA script
+ECMA-european computer manufacturing association
+
+*   *   *   *  *
+*   *   *   *  *
+*   *   *   *  *
+*   *   *   *  *
+*   *   *   *  *
+
+*   
+*   *   
+*   *   *   
+*   *   *   *  
+*   *   *   *  *
+
+*              *
+    *       *   
+        *       
+    *       *   
+*              *
+
+use for loop
+use nested for loop
+use coordinates
 
 
 
