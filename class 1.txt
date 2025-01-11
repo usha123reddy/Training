@@ -331,16 +331,37 @@ ________
 ex:- 
 
 
+map and forEach difference
+-map:-it is used to iterate the values of the array one by one;
+-it will return values;
+-foeEach:-it is used to iterate arravalues of an array
+-it will return the value we get undifined
 
 
+)))methods in an array
 
+-push(),pop(),unshift(),shift(),reverse(0,join(),concat(0))
+ 
+ )))what is an object?
 
+-object ia an entity which is used to store the values in the form of key and value pairs;
+object is an physical entity to store an entity which is having states and behavoiurs(method);
 
+Note:---
+-javascript is a object based because dont use class + but after EC6 class is introduced in javaScripts
 
+Systax:- let obj={};
+ex:-
+let obj{
+	name:"sai",
+	age=18
+}
+JSON PLACEHOLDER
 
-
-
-
-
-
-
+JSON:-javascript object notation
+-it is used to transmit the data from client to server to client.
+SYNTAX:-
+{
+	"key":"value"
+	}
+-for json no need to dtore it inside the variable-here both keys and values should be ""except number

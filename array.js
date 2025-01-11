@@ -13,7 +13,7 @@ let y=users.forEach((user)=>{
     return user;
 })
 console.log(y);  */
-const users=["usha","sai","sreeja","ashwika"];
+//const users=["usha","sai","sreeja","ashwika"];
 /* users.push("ram");//add last
 console.log(users);
 users.pop();//remove last
@@ -25,11 +25,64 @@ users.shift();//remove first
 console.log(users);
 users.unshift("krishna");
 console.log(users.reverse()); */
-let x=users.join()
+/* let x=users.join()
 console.log(x,typeof(x));
 
 let frontend=["html","css","js","reactjs","angular","vue"];
 let backend=["nodejs","expressjs","java","php","golang"];
 let db=["Mongodb","mysql","oracle","couchdb","mariadb"];
 let fullstack=frontend.concat(backend,db);
-console.log(fullstack);
+console.log(fullstack); *//* 
+//!nested object
+let userDetails={
+	name:"Sai",
+	age:18,
+    city:"HYD",
+    address:{
+        area:"lakshmipuram",
+        pincode:506207
+    }
+}
+console.log(userDetails);
+console.log(userDetails.name);
+console.log(userDetails.address.area);
+console.log(userDetails.address.pincode); */
+//!create array of object
+/* let userDetails={
+	name:"Sai",
+	age:18,
+    city:"HYD",
+    }
+console.log(userDetails.name);
+let userDetails1={
+	name:"usha",
+	age:18,
+    city:"HYD",
+    }
+console.log(userDetails1.name);
+let userDetails3={
+	name:"ram",
+	age:18,
+    city:"HYD",
+    }
+console.log(userDetails3.name);
+let userDetails4={
+	name:"krishna",
+	age:18,
+    city:"HYD",
+    } 
+console.log(userDetails4.name); */ 
+let userDetails=[{
+	name:"Sai",
+	age:18,
+    city:"HYD"
+    },
+    {
+    name:"krishna",
+    age:18,
+    city:"HYD"
+    } 
+]
+userDetails.map((userDetail)=>{
+    console.log(userDetail.name);
+})
