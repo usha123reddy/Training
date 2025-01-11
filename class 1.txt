@@ -318,6 +318,21 @@ Finish the execution of a method.
 Return a value from a method.
 Exit a function and return a value.
 
+Day 6:
+_______
+
+Arrays:
+________
+
+-array can store multiple values within a single variable.
+-collection of item/values.
+-array can store homogenous values and hetrogenous values.
+-)Syntax:- [] 
+ex:- 
+
+
+
+
 
 
 

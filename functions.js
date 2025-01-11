@@ -112,7 +112,7 @@ function add(a,b){
     return a+b; 
 }
 /* console.log(add(5,5)); */
-let a=10;
+/* let a=10;
 let b="sai";
 function x(){
     var user="usha";
@@ -123,4 +123,25 @@ function x(){
     console.log(sal);
     console.log(a,b);
 };
+x(); */
+function x(){
+    let a=10;
+    let b=20;
+    console.log(a,b);
+    function y(){
+        let p="Usha";
+        var q="Reddy";
+        console.log(p,q);
+        function z(){
+            const username="sai";
+            console.log(username);
+            console.log(a);
+            console.log(q);
+
+
+        }
+        z();
+    }
+    y();
+}
 x();
