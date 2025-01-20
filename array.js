@@ -100,7 +100,7 @@ let userDetails={
     city:"HYD"
 };
 console.log(userDetails);
-let x=JSON.stringify(userDetails);
+let x=JSON.stringfy(userDetails);
 console.log("json object");
 console.log(x);
 let y=JSON.parse(x);
