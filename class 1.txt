@@ -324,28 +324,33 @@ _______
 Arrays:
 ________
 
+-it is non primitive data type.
 -array can store multiple values within a single variable.
 -collection of item/values.
 -array can store homogenous values and hetrogenous values.
--)Syntax:- [] 
+-)Syntax:- let arr=[];
+
 ex:- 
 
 
 map and forEach difference
+--------------------------
+
 -map:-it is used to iterate the values of the array one by one;
--it will return values;
--foeEach:-it is used to iterate arravalues of an array
--it will return the value we get undifined
+-it will returns new copied array ;
+-foeEach:-it is used to iterate the values from the array
+-it will returns "undifined"
 
 
 )))methods in an array
 
 -push(),pop(),unshift(),shift(),reverse(0,join(),concat(0))
  
- )))what is an object?
+)))what is an object?
 
 -object ia an entity which is used to store the values in the form of key and value pairs;
-object is an physical entity to store an entity which is having states and behavoiurs(method);
+it is an entity which is having states and behaviours.
+-object is an physical entity to store an entity which is having states and behavoiurs(method);
 
 Note:---
 -javascript is a object based because dont use class + but after EC6 class is introduced in javaScripts
@@ -360,8 +365,14 @@ JSON PLACEHOLDER
 
 JSON:-javascript object notation
 -it is used to transmit the data from client to server to client.
+-it is always in the form of "String"
 SYNTAX:-
 {
 	"key":"value"
 	}
--for json no need to dtore it inside the variable-here both keys and values should be ""except number
+-for json no need to store it inside the variable
+-here both keys and values should be " " except number
+
+-methods of json
+1.JSON.stringfy();-it is used to convert javascript object to json object
+2.JSON.parse();-used to convert json object into javascript object

@@ -1,16 +1,19 @@
-/* const users=["usha","sai","sreeja","ashwika"];
+ //const users=["usha","sai","sreeja","ashwika"];
 /* console.log(users);
 console.log(users[0]);
 for(let i=0;i<users.length;i++){
     console.log(users[i]);
 } */
+//!map method
 /* let x=users.map((users)=>{
-    /* console.log(users); */
-    /* return users; */
-/* });
-console.log(x);
+    console.log(users);//usha sai sreeja ashwika
+    return users; //['usha', 'sai', 'sreeja', 'ashwika']
+}); */
+
+//! for each
+/* console.log(x);
 let y=users.forEach((user)=>{
-    return user;
+    return user;//undefined
 })
 console.log(y);  */
 //const users=["usha","sai","sreeja","ashwika"];
@@ -32,9 +35,9 @@ let frontend=["html","css","js","reactjs","angular","vue"];
 let backend=["nodejs","expressjs","java","php","golang"];
 let db=["Mongodb","mysql","oracle","couchdb","mariadb"];
 let fullstack=frontend.concat(backend,db);
-console.log(fullstack); *//* 
+console.log(fullstack); */
 //!nested object
-let userDetails={
+/* let userDetails={
 	name:"Sai",
 	age:18,
     city:"HYD",
@@ -70,8 +73,8 @@ let userDetails4={
 	name:"krishna",
 	age:18,
     city:"HYD",
-    } 
-console.log(userDetails4.name); */ 
+    }  *//* 
+console.log(userDetails4.name); 
 let userDetails=[{
 	name:"Sai",
 	age:18,
@@ -86,3 +89,20 @@ let userDetails=[{
 userDetails.map((userDetail)=>{
     console.log(userDetail.name);
 })
+function fet(){
+    window.fetch("")
+    .then()
+}
+ */
+let userDetails={
+	name:"Sai",
+	age:18,
+    city:"HYD"
+};
+console.log(userDetails);
+let x=JSON.stringify(userDetails);
+console.log("json object");
+console.log(x);
+let y=JSON.parse(x);
+console.log("javascript object");
+console.log(y);
