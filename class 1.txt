@@ -376,3 +376,28 @@ SYNTAX:-
 -methods of json
 1.JSON.stringfy();-it is used to convert javascript object to json object
 2.JSON.parse();-used to convert json object into javascript object
+
+[(((fontawesome.com -for symbols
+font awesome cdn links--((paste in header ]
+
+Day 8
+______
+
+Asynchonus in javascript
+------------------------
+-to perform multiple task in javascript
+
+1.setTimeout();-it is a web application used to perform async operations at
+syntax;]-setTimeout(callbackfn,)
+2.setIntervel();-used to perform async operations at a certain timeout
+syntax;]-setIntervel(callbackfn,timeout)
+(3.promise;-it is an object which represents eventual completion or failures of an async operations
+  states of promise
+  1.pending state
+  2.fulfilled state
+  3.rejected state
+syntax;]-let p = new Promise((resolve,reject)=>{});
+(4.async & await
+
+note:-by default,javascript is synchronus.
+
