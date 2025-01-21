@@ -397,6 +397,11 @@ syntax;]-setIntervel(callbackfn,timeout)
   2.fulfilled state
   3.rejected state
 syntax;]-let p = new Promise((resolve,reject)=>{});
+-the actual way of executing the promise is instance methods
+	1.then();it is used to execute fulfilled state
+	2.catch();it executes rejected state
+	3.finally();it will print once the promise is settled
+
 (4.async & await
 
 note:-by default,javascript is synchronus.
