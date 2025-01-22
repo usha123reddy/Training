@@ -361,6 +361,9 @@ let obj{
 	name:"sai",
 	age=18
 }
+Day 7
+_____
+
 JSON PLACEHOLDER
 
 JSON:-javascript object notation
@@ -405,4 +408,10 @@ syntax;]-let p = new Promise((resolve,reject)=>{});
 (4.async & await
 
 note:-by default,javascript is synchronus.
+
+Day 9
+______
+
+
+
 

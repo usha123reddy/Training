@@ -4,8 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>App</title>
+  
+  <style>
+    body {
+      width: 100px;
+      height: 100px;
+      margin: 50px 100px;
+    }
+    table {
+      width: 100px;
+      border-collapse: collapse; /* Prevent double borders */
+    }
+    table, th, td {
+      border: 2px solid black; /* Specify border color */
+    }
+    tr:nth-child(even) {
+      background-color: blue; /* Even rows will have blue background */
+    }
+</style>
 </head>
 <body>
+  <table>
+    <thead>
+      <th>S1.No</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>company</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>usha</td>
+        <td>usha@gmail.com</td>
+        <td>wipro</td>
+      </tr>
+    </tbody>
+    <tbody id="store">
+
+    </tbody>
+  </table>
   <!-- Add a reference to the JavaScript file -->
   <!--<script src="app.js"></script>-->
   <!-- <script src="operators.js"></script> -->
