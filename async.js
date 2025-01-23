@@ -34,13 +34,13 @@ p3.finally(()=>console.log("finally")) */
 
 //!api fetching
 
-function fetchUsers(){
+/* function fetchUsers(){
     let response=fetch("https://jsonplaceholder.typicode.com/users");
     //console,log(response);
     response.then(result=>{
-       /*  console.log(res.json()); */
+         console.log(res.json()); 
        return result.json().then(data=>{
-        /* console.log(data); */
+         console.log(data); 
         let store=document.getElementById("store");
         console.log(store);
         data.map(user=>{
@@ -58,4 +58,34 @@ function fetchUsers(){
     })
     .catch(err=>console.log(err))
 }
-fetchUsers();
+fetchUsers(); */
+
+/* function demo(){
+    console.log("start");
+    console.log(10);
+    return;
+    console.log(20);
+    console.log("end");
+}
+demo(); */
+let p=new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+        resolve("success");
+    },5000) 
+})
+async function demo(){
+    console.log("Start");
+    let x=await p;
+    console.log(x);
+    console.log("End");
+};
+demo();
+
+async function fetchusers(){
+    let response=await fetch("https://jsonplaceholder.typicode.com/users");
+    console.log(response);
+    let data=await response.json();
+    console.log(data);
+
+}
+fetchusers();

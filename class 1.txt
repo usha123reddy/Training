@@ -412,6 +412,33 @@ note:-by default,javascript is synchronus.
 Day 9
 ______
 
+coding
 
+Day 10
+______
 
+async:-async keyword is used to convert synchronus into Asynchonus and start to executethe promise
+await:-await is used to make the function to wait until the promise complete
 
+DOM:-
+-----
+document object model
+-it is used to add,remove,update the content in the html document.
+-it is used to manupulate the content in the html document.
+
+-methods
+---------
+1.document.getElementById(""):- it is used to select or target the html elemet based on "id attribute value".
+								-id attribute should be uniqe or used with one element
+2.document.getElementByClassName(""):-it is used to select or target the html elemet based on "class attribute value".
+								-class attribute can be used with comman name
+3.document.getElementByTagName(""):-it is used to select html element based on tag names 
+4.document.getElementByName(""):-it is used to select html element based on name attribute value.
+---these below methods are different from above attributes
+---below attributes select html methods based on css selectors
+5.document.querySelector("#id"):-it selects only on elements
+6.document.querySelectorAll("#.class"):-it selects on multiple elements
+innerText:it is a property to manipulate plain text
+innerHtml:used to add remove content with 
+-events
+-dynamic events from dom
