@@ -441,4 +441,17 @@ document object model
 innerText:it is a property to manipulate plain text
 innerHtml:used to add remove content with 
 -events
+--------
+--these are actions performed on html elements
+--events are click events,mouse events,ket events
+
+click events
+------------
+onclick
+ondblclick
+onsubmit
+onchange
+
+mouse events
+------------
 -dynamic events from dom
