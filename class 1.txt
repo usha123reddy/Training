@@ -455,3 +455,13 @@ onchange
 mouse events
 ------------
 -dynamic events from dom
+
+
+Day 11
+_______
+
+dynamic creation of html element from javascript
+-------------------------------------------------
+-to create dynamic element we have a method called document.createElement();
+-to create an attribute we have a method called setAttribute();
+-to remove attribute we have a method called removeAttribute()
