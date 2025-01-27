@@ -66,7 +66,7 @@ console.log(image);
 document.body.appendChild(ele);
 document.body.appendChild(image);
  */
-let form=document.querySelector("form");
+/* let form=document.querySelector("form");
 let username=document.getElementById("uname");
 let mail=document.getElementById("umail");
 
@@ -82,4 +82,57 @@ form.addEventListener("submit",(event)=>{
     }
     console.log(userDetails);
     localStorage.setItem("userData",JSON.stringify(userDetails));
-})
+}) */
+
+/* let vd=document.createElement("video");
+vd.setAttribute("src",".https://www.bing.com/videos/riverview/relatedvideo?&q=viedio+links+shots+below+20+seconds&&mid=53C3D78714AD4CA1487B53C3D78714AD4CA1487B&&FORM=VRDGAR");
+vd.setAttribute("contols","controls");
+    console.log(vd);
+
+document.body.appendChild(vd); */
+/* let h1=document.createElement("h1");
+h1.setAttribute("id","demo");
+h1.innerText="hello";
+console.log(h1); */
+
+let mainElel=document.createElement("div");
+mainElel.setAttribute("id","mainBlock");
+mainElel.style.border="2px solid red";
+mainElel.style.width="550px";
+mainElel.style.height="550px";
+
+console.log(mainElel);
+
+let topElel=document.createElement("div");
+topElel.setAttribute("class","topElel");
+//console.log(topElel);
+
+let image=document.createElement("img");
+image.src="https://th.bing.com/th/id/OIP.GPFEY6kfgxbsja6gmrW6rwHaE7?w=281&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7";
+image.style.width="550px";
+
+
+let BottomElel=document.createElement("div");
+BottomElel.setAttribute("class","BottomElel");
+//console.log(BottomElel);
+
+let h1=document.createElement("h1");
+h1.innerText="nature";
+h1.style.textAlign="center";
+
+let btn=document.createElement("botton");
+btn.innerText="viewmore";
+btn.style.border="none";
+btn.style.padding="20px";
+btn.style.backgroundColor="dodgerblue";
+btn.style.color="white";
+
+BottomElel.appendChild(h1);
+BottomElel.appendChild(btn);
+
+topElel.appendChild(image)
+mainElel.appendChild(topElel);
+mainElel.appendChild(BottomElel);
+document.body.appendChild(mainElel)
+
+
