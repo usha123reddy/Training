@@ -94,7 +94,7 @@ document.body.appendChild(vd); */
 h1.setAttribute("id","demo");
 h1.innerText="hello";
 console.log(h1); */
-
+/* 
 let mainElel=document.createElement("div");
 mainElel.setAttribute("id","mainBlock");
 mainElel.style.border="2px solid red";
@@ -134,5 +134,51 @@ topElel.appendChild(image)
 mainElel.appendChild(topElel);
 mainElel.appendChild(BottomElel);
 document.body.appendChild(mainElel)
+ */
+
+// Select form and input elements
+let form = document.querySelector("form");
+let username = document.getElementById("uName");
+let password = document.getElementById("uPass"); // Make sure 'id' matches the corrected HTML
+let check=document.getElementById("check");
+let show=document.getElementById("show");
+let gender = document.getElementsByName("gender");
 
 
+// Add submit event listener to the form
+check.addEventListener("click",event=>{
+    if(event.target.checked==true){
+        password.setAttribute("type", "text");
+        show.innerText="hide password";
+    }else{
+        password.setAttribute("type", "password");
+        show.innerText="show password";
+    }
+})
+form.addEventListener("submit", (event) => {
+    event.preventDefault(); // Prevent default form submission
+
+    let un = username.value;
+    let up = password.value;
+    let gen = "";
+
+    // Loop through gender radio buttons to find the selected one
+    for (let i = 0; i < gender.length; i++) {
+        if (gender[i].checked) {
+            gen = gender[i].value;
+        }
+    }
+
+    // Create a user details object
+    let userDetails = {
+        username: un,
+        password: up,
+        gender: gen,
+    };
+
+    // Log user details to the console
+    console.log(userDetails);
+
+    // Store user details in sessionStorage
+    sessionStorage.setItem("userData", JSON.stringify(userDetails));
+});
